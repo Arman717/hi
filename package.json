@@ -1,0 +1,17 @@
+{
+  "name": "sales-call-recorder",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for Sales Call Recorder & AI Notes application",
+  "license": "MIT",
+  "scripts": {
+    "dev:web": "npm --workspace=@sales-call/web run dev",
+    "dev:api": "npm --workspace=@sales-call/api run start:dev",
+    "build": "npm run build:web && npm run build:api",
+    "build:web": "npm --workspace=@sales-call/web run build",
+    "build:api": "npm --workspace=@sales-call/api run build"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
