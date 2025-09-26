@@ -1,0 +1,10 @@
+node_modules
+.dist
+.next
+.DS_Store
+dist
+.env
+.env.local
+coverage
+.tmp
+yarn.lock
