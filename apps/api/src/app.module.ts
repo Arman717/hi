@@ -5,6 +5,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
 
+
+
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { User } from './users/user.entity';
@@ -42,12 +44,14 @@ import { CallsModule } from './calls/calls.module';
         } as const;
       }
 
+
       useFactory: () => ({
         type: 'postgres',
         url: process.env.DATABASE_URL,
         autoLoadEntities: true,
         synchronize: false
       })
+
 
     }),
     TypeOrmModule.forFeature([User, Call, CallEvent]),

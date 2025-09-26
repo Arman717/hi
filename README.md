@@ -26,6 +26,7 @@ requirements:
    ```
 
 
+
 3. Explore the repository structure in [`docs/architecture.md`](docs/architecture.md) for the next
    implementation steps.
 
