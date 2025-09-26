@@ -25,6 +25,7 @@ requirements:
    npm run dev:web   # Next.js frontend on http://localhost:3000
    ```
 
+
 3. Explore the repository structure in [`docs/architecture.md`](docs/architecture.md) for the next
    implementation steps.
 
