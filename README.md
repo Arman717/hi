@@ -25,10 +25,7 @@ requirements:
    npm run dev:web   # Next.js frontend on http://localhost:3000
    ```
 
-   The API will automatically fall back to a local SQLite database (`tmp/dev.sqlite`) when
-   `DATABASE_URL` is not provided, so you can boot the backend without additional services during
-   early development. Provide a PostgreSQL connection string through `DATABASE_URL` in production
-   or when you want to validate against the target infrastructure.
+
 
 3. Explore the repository structure in [`docs/architecture.md`](docs/architecture.md) for the next
    implementation steps.
